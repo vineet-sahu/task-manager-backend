@@ -44,9 +44,10 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'brakeman', require: false
+  gem 'overcommit', '~> 0.68.0'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
 end
 
@@ -61,5 +62,3 @@ gem 'rack-cors', '~> 2.0'
 gem 'jsonapi-serializer', '~> 2.2'
 
 gem 'rack-attack', '~> 6.8'
-
-gem "overcommit", "~> 0.68.0"
