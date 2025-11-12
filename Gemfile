@@ -45,6 +45,8 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
   gem 'brakeman', require: false
+  gem 'letter_opener'
+  gem 'letter_opener_web'
   gem 'overcommit', '~> 0.68.0'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
